@@ -13,5 +13,5 @@ def last_page(_):
     return HttpResponse("Bye")
 
 def index(request):
-    dict_1={'Vaccine':['Covishield','Covaxin']}
+    dict_1={'Numbers':"One\nTwo\nThree"}
     return render(request,'myFirstApp/index.html',context=dict_1)
