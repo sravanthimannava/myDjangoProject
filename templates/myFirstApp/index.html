@@ -10,24 +10,5 @@
     <h1>This is Python</h1>
     <h2>This is one more heading</h2>
     <img src="{% static "myFirstApp/Images/python_icon.png"%}" />
-    <br>
-    {% for number in Numbers %}
-      {{ number | add:"1" }}
-    {% endfor %}
-    {{ Numbers | addslashes }}
-    <br>
-    {{ Numbers | capfirst }}
-    <br>
-    {{ Numbers | cut:" " }}
-    <br>
-    {{ Number | default:"Hey this is from Default" }}
-    <br>
-    {{ Numbers | join:" - " }}
-    <br>
-    {{ Numbers | length }}
-    <br>
-    {{ Numbers | linenumbers }}
-    {{ Numbers | lower }}
-    {{ Numbers | make_list }}
   </body>
 </html>
