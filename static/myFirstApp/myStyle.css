@@ -1,3 +1,11 @@
 h1 {
-  color:blue;
+  color: blue;
+}
+
+h3{
+  color : orange;
+}
+
+input:invalid {
+  border: red solid 1px;
 }
