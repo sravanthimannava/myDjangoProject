@@ -19,7 +19,8 @@ from myFirstApp import views
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^$',views.index,name="Home Page"),
+    url(r'^$',views.index,name="Index Page"),
+    url(r'^home',views.home_page,name="Home Page"),
     url(r'^start/',views.start_page,name="Start Page"),
     url(r'^last/',include('myFirstApp.urls')),
 ]
