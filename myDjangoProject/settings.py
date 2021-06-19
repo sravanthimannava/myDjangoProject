@@ -82,7 +82,7 @@ WSGI_APPLICATION = 'myDjangoProject.wsgi.application'
 DATABASES = {
      'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'user_list',
+        'NAME': 'python_course',
         'USER': 'PythonCourse',
         'PASSWORD': 'Python@1234',
         'HOST': 'localhost',   # Or an IP Address that your DB is hosted on
